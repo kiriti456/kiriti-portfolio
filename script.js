@@ -31,10 +31,11 @@ function sendEmail() {
         send_message: document.getElementById("send_message").value
     };
 
-    if(templateParams.from_name.lenght > 0 && templateParams.send_message.length > 0){
+    if(templateParams.from_name.length > 0 && templateParams.send_message.length > 0){
         emailjs.send("service_pbgcibb", "template_3hcarnd", templateParams)
             .then(function (response) {
                 console.log("Email sent successfully:", response);
+                alert("Message sent successfully")
             }, function (error) {
                 console.log("Email failed to send:", error);
             });
