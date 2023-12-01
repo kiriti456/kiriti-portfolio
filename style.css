@@ -78,6 +78,8 @@ section {
         flex-direction: column;
         background-color: var(--second-bg-color);
         width: 100%;
+        padding: 10px;
+        font-size: 20px;
     }
 
     .nav-menu.active {
@@ -106,6 +108,15 @@ section {
         margin-top: 2.5rem;
         margin-bottom: 2.5rem;
         margin-right: 0;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .bx-menu {
+        font-size: 25px;
+    }
+    .bx-x {
+        font-size: 25px;
     }
 }
 
