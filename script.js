@@ -39,6 +39,8 @@ function sendEmail() {
             }, function (error) {
                 console.log("Email failed to send:", error);
             });
+            document.getElementById("from_name").value = "";
+            send_message: document.getElementById("send_message").value = "";
     }
     else{
         alert("Please enter your name and message");
