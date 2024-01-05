@@ -121,6 +121,15 @@ section {
     .bx-x {
         font-size: 25px;
     }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .projects-container .projects-box {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 }
 
 .home, .message {
