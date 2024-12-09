@@ -24,7 +24,7 @@ function closeMenu() {
 const hoverableSection = document.querySelector(".hoverable-section");
 
 function sendEmail() {
-    emailjs.init("mNvUMFi0FO_rUHFZv");
+    emailjs.init("inQFjGDD6ryKjPV8v");
 
     const templateParams = {
         from_name: document.getElementById("from_name").value,
