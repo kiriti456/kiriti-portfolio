@@ -32,7 +32,7 @@ function sendEmail() {
     };
 
     if(templateParams.from_name.length > 0 && templateParams.send_message.length > 0){
-        emailjs.send("service_pbgcibb", "template_3hcarnd", templateParams)
+        emailjs.send("service_evuohq5", "template_3hcarnd", templateParams)
             .then(function (response) {
                 console.log("Email sent successfully:", response);
                 alert("Message sent successfully")
